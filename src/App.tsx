@@ -125,8 +125,8 @@ const Left = styled(Main)`
   background-image: url("/cemetry/gate-left.png");
   transform: translateX(-20vw);
   @media (max-width: 420px) {
-  background-size: 120vw;
-  margin-top: 50px;
+  /* background-size: 120vw; */
+  /* margin-top: 50px; */
 }
 
 `;
@@ -134,8 +134,8 @@ const Right = styled(Main)`
   background-image: url("/cemetry/gate-right.png");
   transform: translateX(20vw);
   @media (max-width: 420px) {
-  background-size: 120vw;
-  margin-top: 50px;
+  /* background-size: 120vw; */
+  /* margin-top: 50px; */
 }
 
    
