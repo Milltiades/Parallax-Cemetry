@@ -64,13 +64,7 @@ function App() {
           </TextDiv>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={1.2} speed={-1.3} horizontal>
-        <Ghost/>
-        </ParallaxLayer>
-
-        <ParallaxLayer offset={1} speed={1.3} horizontal>
-        <Ghost2/>
-        </ParallaxLayer>
+      
       </Parallax>
 
      
@@ -164,29 +158,6 @@ const Grass = styled(Main)`
 
 `;
 
-const Ghost = styled(Main)`
-
-display: none;
-  background-image: url("/cemetry/ghost.png");
-  background-size: 20vw;
-  will-change: auto;
-@media (max-width: 420px){
-  display: flex;
-  background-size: 25vw;
-  width: 80vw;
-  height: 25vh;
-  transform: translateY(30vh);
-  margin-left: 20vw;
-}
-`
-
-const Ghost2 = styled(Main)`
-display: flex;
-  background-image: url("/cemetry/ghost.png");
-  background-size: 20vw;
-  transform: translateX(-58vw);
-  margin-top: 15vh;
-`
 
 
 
